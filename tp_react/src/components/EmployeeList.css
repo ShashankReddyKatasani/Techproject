@@ -1,0 +1,47 @@
+/* EmployeeList.css */
+.employee-list-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .employee-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .container {
+    margin: 20px;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 12px 16px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+  }
+  
+  .employee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }

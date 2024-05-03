@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if searched %}
+         {% for employee in searched %}
+            <h3> {{employee.emp_name}}</h3>
+            <h3>{{employee.emp_id}}</h3>
+            <h3>{{employee.emp_id}}</h3>
+            <h3>{{employee.doj}}</h3>
+            <h3>{{employee.dob}}</h3>
+            {% endfor %}
+    {% else %}
+    <form action="{% url 'search' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+   
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,73 @@
+/* SearchBar.css */
+.search-bar-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar-container h1 {
+    margin-bottom: 15px;
+  }
+  
+  .search-bar-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .search-bar-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar-container button {
+    padding: 10px 15px;
+    background-color:rgb(51, 99, 255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar-container button:hover {
+    background-color: black;
+  }
+  
+  .search-bar-container ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .search-bar-container .employee-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .search-dropdown {
+    /* Add your custom styles here */
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the dropdown arrow icon */
+  .search-dropdown::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  

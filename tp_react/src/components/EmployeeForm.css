@@ -1,0 +1,74 @@
+/* EmployeeForm.
+body {
+  background-image: url("hd.jpeg");
+  background-size:cover;
+} */
+
+
+.employee-form-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.employee-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(51, 99, 255);
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-buttons button:hover {
+  background-color: black;
+}
+/* Style for the select dropdown */
+.form-group select {
+  width: 298px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Style for the dropdown options */
+.form-group select option {
+  padding: 8px;
+}
+/* Add more CSS styling as needed */
+/* EmployeeForm.css */
+

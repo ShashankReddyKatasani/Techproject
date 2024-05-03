@@ -1,0 +1,189 @@
+.about-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+  
+.aboutus-container {
+/* background: url('images/img-home.jpg') center center/cover no-repeat;  */
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+object-fit: contain;
+}
+  
+ .aboutus-container > h1 {
+    color: #ffffff;
+    font-size: 90px;
+    margin-top: -100px;
+}
+   
+  .aboutus-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .about-btns {
+    margin-top: 32px;
+  }
+  
+  .about-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .aboutus-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .aboutus-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .aboutus-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  } 
+
+  .aboutus-matter {
+    padding: 3rem;
+    background: #fff;
+  }
+  
+  .aboutus-matter > h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+
+  }
+  
+  .aboutus-matter > h2 {
+    text-align: center;
+    color: rgb(18, 196, 231);
+    padding: 0.5cm;
+  }
+
+  .aboutus-matter > p {
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  .aboutus-ourservices {
+    padding: 3rem;
+    background: #fff;
+    max-width: 100%;
+   
+  }
+
+  .aboutus-ourservices > h1 {
+    text-align: center;
+    color: rgb(18, 196, 231);
+    padding: 2cm;
+    
+  }
+
+  .ourservices {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    padding-bottom: 2cm;
+  }
+  
+  .box > h1 {
+    text-align: center;
+    padding-bottom: 1cm ;
+  } 
+ 
+  .box > h2 {
+    text-align: left;
+    padding-bottom: 1cm;
+    color: rgb(37, 155, 195)
+  }
+
+  .box > p {
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .ourleader-container {
+    padding: 3rem;
+    background: #fff;
+    
+  }
+  
+  .ourleader-container > h1{
+
+    max-block-size: 90%;
+    margin: 20px;
+  }
+  .ourleader-container > p {
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+  .ourleader-container > br {
+    padding-bottom: 1cm;
+  }
+
+  .leaders-image {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+ .ourleader-container >h2 {
+  margin-left: 120px;
+ }
